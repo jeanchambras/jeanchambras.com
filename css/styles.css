@@ -85,7 +85,7 @@
   background: #FAFAFA;
   color: rgb(27, 27, 27);
   max-width: 150px;
-  font-weight: 100;
+  font-weight: 300;
   margin: 2rem auto;
   padding: 0.7rem;
   text-transform: uppercase;
@@ -100,7 +100,7 @@
 }
 
 .button:hover {
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -139,24 +139,6 @@
   fill: rgb(153, 208, 224);
 }
 
-#overview {
-  margin-bottom: 1rem;
-}
-
-#overview img {
-  max-height: 150px;
-  max-width: 150px;
-  border-radius: 50%;
-  margin: 1rem auto;
-  border: solid 2px rgb(153, 208, 224);
-  display: block;
-}
-
-#overview p {
-  display: block;
-  text-align: center;
-}
-
 @media (max-width: 601px) {
   #reach {
     display: none;
@@ -179,14 +161,36 @@
   color: #FAFAFA;
 }
 
+#overview {
+  margin-bottom: 1rem;
+}
+
+#overview img {
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  border: solid 2px rgb(153, 208, 224);
+  display: block;
+}
+
+#overview p {
+  display: block;
+  text-align: center;
+}
+
 /* Content */
 
+#content ul {
+  margin: 0.5rem 0;
+}
+
 #content {
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(12, 16, 23);
   padding-bottom: 2rem;
   color: rgb(228, 228, 228);
   font-family: 'Muli', 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 #content h2 {
