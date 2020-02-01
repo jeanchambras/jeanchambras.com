@@ -2,3 +2,5 @@
 .htaccess
 todo.md
 *.min.css
+.rsync-ignore
+node_modules

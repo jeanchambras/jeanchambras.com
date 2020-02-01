@@ -1,0 +1,22 @@
+{
+  "name": "jeanchambras.com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanchambras/jeanchambras.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanchambras/jeanchambras.com/issues"
+  },
+  "homepage": "https://github.com/jeanchambras/jeanchambras.com#readme",
+  "dependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
